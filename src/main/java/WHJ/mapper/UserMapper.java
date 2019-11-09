@@ -17,11 +17,13 @@ public interface UserMapper {
             " account_id," +
             " token, " +
             "gmt_create," +
-            " gmt_modified) " +
+            " gmt_modified," +
+            "avatar_url) " +
             "values (#{name}," +
             "#{accountId}, " +
             "#{token}, " +
             "#{gmtCreate}, " +
-            "#{gmtModified})")
+            "#{gmtModified}," +
+            "#{avatarUrl})")
     void insert(User user);
 }

@@ -20,14 +20,16 @@ public class IndexController {
 
         Cookie[] cookies = request.getCookies();
 
-        for (Cookie cookie : cookies) {
-            if (cookie.getName().equals("token")) {
-                String token = cookie.getValue();
-                User user = userMapper.findByToken(token);
-                if (user != null) {
-                    request.getSession().setAttribute("user", user);
+        if (cookies != null) {
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals("token")) {
+                    String token = cookie.getValue();
+                    User user = userMapper.findByToken(token);
+                    if (user != null) {
+                        request.getSession().setAttribute("user", user);
+                    }
+                    break;
                 }
-                break;
             }
         }
         return "index";

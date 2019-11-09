@@ -2,56 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8047b014-034b-46bd-b4ee-1eab03196aea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/125b693e-5ca6-4406-9cef-860a5ca6fac4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/controller/PublishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/mapper/QuestionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/model/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_user_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_bio_col_to_user_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3__Create_question_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/community.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/publish.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test.trace.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/controller/IndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/controller/PublishController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/mapper/QuestionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/model/Question.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V1__Create_user_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V2__Add_bio_col_to_user_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V3__Create_question_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/community.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__Add_avatar_url_to_user_table.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/noname.iml" beforeDir="false" afterPath="$PROJECT_DIR$/noname.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/controller/AuthorizeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/dto/AccessTokenDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/dto/AccessTokenDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/dto/GithubUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/dto/GithubUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/model/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WHJ/controller/AuthorizeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/controller/AuthorizeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/dto/AccessTokenDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/dto/AccessTokenDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WHJ/dto/GithubUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/dto/GithubUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/model/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/model/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,8 +70,95 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/controller/PublishController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-253">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            <state relative-caret-position="1432">
+              <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V4__Add_avatar_url_to_user_table.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://125b693e-5ca6-4406-9cef-860a5ca6fac4/database/TEST/schema/PUBLIC/table/flyway_schema_history">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="85b8a56c-09ce-4eb7-9ab0-6f3b76495bde">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://125b693e-5ca6-4406-9cef-860a5ca6fac4/database/TEST/schema/PUBLIC/table/QUESTION">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="85b8a56c-09ce-4eb7-9ab0-6f3b76495bde">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://125b693e-5ca6-4406-9cef-860a5ca6fac4/database/TEST/schema/PUBLIC/table/USER">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="85b8a56c-09ce-4eb7-9ab0-6f3b76495bde">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/dto/GithubUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/controller/AuthorizeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,124 +169,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/provider/GithubProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="268">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/mapper/QuestionMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/publish.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/controller/AuthorizeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/dto/AccessTokenDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-              <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -264,26 +208,28 @@
         <option value="$PROJECT_DIR$/src/main/java/WHJ/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/WHJ/dto/AcessTokenDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/WHJ/provider/GithubProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WHJ/dto/GithubUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WHJ/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/WHJ/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/125b693e-5ca6-4406-9cef-860a5ca6fac4/console_1.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/125b693e-5ca6-4406-9cef-860a5ca6fac4/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/WHJ/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_user_table.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_bio_col_to_user_table.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/community.css" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V3__Create_question_table.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/WHJ/model/Question.java" />
         <option value="$PROJECT_DIR$/src/main/java/WHJ/mapper/QuestionMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/publish.html" />
         <option value="$PROJECT_DIR$/src/main/java/WHJ/controller/PublishController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/WHJ/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WHJ/model/Question.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WHJ/dto/AccessTokenDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WHJ/dto/GithubUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/WHJ/controller/AuthorizeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WHJ/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/WHJ/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V4__Add_avatar_url_to_user_table.sql" />
       </list>
     </option>
   </component>
@@ -303,11 +249,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="788" />
-    <option name="y" value="-13" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="787" />
+    <option name="y" value="-14" />
     <option name="width" value="820" />
-    <option name="height" value="877" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -316,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -443,7 +390,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -464,7 +410,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -532,17 +478,19 @@
       <workItem from="1573108585982" duration="14768000" />
       <workItem from="1573174677251" duration="4193000" />
       <workItem from="1573198360120" duration="12475000" />
-      <workItem from="1573276113203" duration="2025000" />
+      <workItem from="1573276113203" duration="3347000" />
+      <workItem from="1573306561983" duration="635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53026000" />
+    <option name="totallyTimeSpent" value="54983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24697986" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25033557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -552,27 +500,27 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.390681" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51282054" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38172042" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.43304843" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.43304843" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32905984" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.67094016" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.67094016" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.33691755" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24979724" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32846716" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3281879" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.27169505" />
+      <window_info anchor="right" id="Database" order="6" weight="0.27114093" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32927817" />
@@ -812,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/125b693e-5ca6-4406-9cef-860a5ca6fac4/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -840,15 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://125b693e-5ca6-4406-9cef-860a5ca6fac4/database/TEST/schema/PUBLIC/table/flyway_schema_history">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="39ed2d94-f07e-4955-a580-66038892e58f">
-          <filtering>
-            <filter text="" />
-          </filtering>
         </state>
       </provider>
     </entry>
@@ -905,71 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://125b693e-5ca6-4406-9cef-860a5ca6fac4/database/TEST/schema/PUBLIC/table/USER">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="39ed2d94-f07e-4955-a580-66038892e58f">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/model/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-            <element signature="e#1507#1508#0" expanded="true" />
-            <element signature="e#1547#1548#0" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#1756#1757#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="e#1849#1850#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://125b693e-5ca6-4406-9cef-860a5ca6fac4/database/TEST/schema/PUBLIC/table/QUESTION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="6bcb13ba-7176-4354-92f9-bf2375aa975a">
-          <filtering />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_user_table.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -977,23 +844,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/dto/GithubUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/publish.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="416">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="1184" column="75" lean-forward="true" selection-start-line="1183" selection-end-line="1185" />
           <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#119456#119457#0" expanded="true" />
+            <element signature="e#119510#119511#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1008,98 +893,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/model/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/dto/AccessTokenDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="92">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/provider/GithubProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/dto/GithubUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/controller/AuthorizeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="514">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/provider/GithubProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/publish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/controller/PublishController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/controller/AuthorizeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        <state relative-caret-position="1432">
+          <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1108,11 +963,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WHJ/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V4__Add_avatar_url_to_user_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://125b693e-5ca6-4406-9cef-860a5ca6fac4/database/TEST/schema/PUBLIC/table/flyway_schema_history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="85b8a56c-09ce-4eb7-9ab0-6f3b76495bde">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://125b693e-5ca6-4406-9cef-860a5ca6fac4/database/TEST/schema/PUBLIC/table/QUESTION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="85b8a56c-09ce-4eb7-9ab0-6f3b76495bde">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://125b693e-5ca6-4406-9cef-860a5ca6fac4/database/TEST/schema/PUBLIC/table/USER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="85b8a56c-09ce-4eb7-9ab0-6f3b76495bde">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
