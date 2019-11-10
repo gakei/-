@@ -26,4 +26,7 @@ public interface UserMapper {
             "#{gmtModified}," +
             "#{avatarUrl})")
     void insert(User user);
+
+    @Select("Select * from user where id = #{id}")
+    User findById(@Param("id") Integer id);
 }

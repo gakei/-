@@ -47,15 +47,18 @@
         <div class="col-lg-9 col-md-12 col-sm-12 col-sm-12">
             <h2><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>发现</h2>
             <hr>
-            <div class="media-left">
-                <a href="#">
-                    <img class="media-object img-circle" src="https://avatars0.githubusercontent.com/u/42760638?v=4" alt="...">
-                </a>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">快速学习Spring Boot开发</h4>
-                点击进入 看无名小站视频
-                <span class="text-desc">2个回复  31次浏览 1小时前</span>
+            <div class="media" th:each="question : ${questions}">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-circle"
+                        th:src="${question.user.avatarUrl}">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading" th:text="${question.title}"></h4>
+                    <span th:text="${question.description}"></span> <br>
+                    <span class="text-desc"><span th:text="${question.commentCount}"></span>个回复  <span th:text="${question.viewCount}"></span>次浏览 <span th:text="${#dates.format(question.gmtCreate,'dd MMMM yyyy')}"></span></span>
+                </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-12 col-sm-12 col-sm-12">
