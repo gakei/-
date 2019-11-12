@@ -31,7 +31,7 @@
                 </li>
                 <li><a href="https://github.com/login/oauth/authorize?client_id=bd201c4a9db5caab9f0d&redirect_uri=http://localhost:8080/callback&scope=user&state=1" th:if="${session.user == null}">登录</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" th:if="${session.user != null}">我 <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" th:if="${session.user != null}" th:text="${session.user.getName()}"> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">消息中心</a></li>
                         <li><a href="#">个人资料</a></li>
@@ -47,7 +47,7 @@
         <div class="col-lg-9 col-md-12 col-sm-12 col-sm-12">
             <h2><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>发现</h2>
             <hr>
-            <div class="media" th:each="question : ${questions}">
+            <div class="media" th:each="question : ${pagination.questions}">
                 <div class="media-left">
                     <a href="#">
                         <img class="media-object img-circle"
@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-12 col-sm-12 col-sm-12">
-            <h3>热门内容</h3>
+            <h3>最新话题</h3>
         </div>
     </div>
 </div>
