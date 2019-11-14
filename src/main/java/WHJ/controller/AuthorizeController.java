@@ -65,10 +65,10 @@ public class AuthorizeController {
 
             response.addCookie(new Cookie("token", token));
 
-            return "redirect:/index";
+            return "redirect:/";
         }
         else {
-            return "/index";
+            return "/";
         }
     }
 }
