@@ -34,7 +34,7 @@ public class AuthorizeController {
     private UserMapper userMapper;
     
     @GetMapping("/callback")
-    public String callBacke(@RequestParam(name = "code") String code,
+    public String callBack(@RequestParam(name = "code") String code,
                             @RequestParam(name = "state") String state,
                             HttpServletResponse response) {
         AccessTokenDTO accessTokenDTO = new AccessTokenDTO();

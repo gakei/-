@@ -1,0 +1,21 @@
+2019-11-19 19:12:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUESTION" not found; SQL statement:
+select count(1) from question [42102-199]
+2019-11-19 19:12:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUESTION" not found; SQL statement:
+select count(1) from question [42102-199]
+2019-11-19 19:12:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUESTION" not found; SQL statement:
+select count(1) from question [42102-199]
+2019-11-19 19:13:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUESTION" not found; SQL statement:
+select count(1) from question [42102-199]
+2019-11-19 19:16:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUESTION" not found; SQL statement:
+select count(1) from question [42102-199]
+2019-11-19 19:16:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUESTION" not found; SQL statement:
+select count(1) from question [42102-199]
+2019-11-19 19:18:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUESTION" not found; SQL statement:
+Select * from question where id = ? [42102-199]
