@@ -79,4 +79,9 @@ public class QuestionService {
         paginationDTO.setQuestions(questionDTOList);
         return paginationDTO;
     }
+
+    public QuestionDTO getById(Integer id) {
+        QuestionDTO questionDetail = questionMapper.getById(id);
+        return questionDetail;
+    }
 }

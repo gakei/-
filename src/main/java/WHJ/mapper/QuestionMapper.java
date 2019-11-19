@@ -1,6 +1,7 @@
 package WHJ.mapper;
 
 import WHJ.model.Question;
+import WHJ.model.QuestionDTO;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
@@ -27,4 +28,7 @@ public interface QuestionMapper {
 
     @Select("select count(1) from question where creator = #{userId}")
     Integer countByUserId(@Param(value = "userId") Integer userId);
+
+    @Select("Select * from question where id = #{id}")
+    QuestionDTO getById(@Param("id") Integer id);
 }
