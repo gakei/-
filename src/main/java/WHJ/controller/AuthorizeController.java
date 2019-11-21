@@ -5,6 +5,7 @@ import WHJ.dto.GithubUser;
 import WHJ.mapper.UserMapper;
 import WHJ.model.User;
 import WHJ.provider.GithubProvider;
+import WHJ.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -20,6 +21,9 @@ public class AuthorizeController {
     
     @Autowired
     private GithubProvider githubProvider;
+
+    @Autowired
+    private UserService userService;
 
     @Value("${github.client.id}")
     private String clientId;
@@ -61,7 +65,7 @@ public class AuthorizeController {
             user.setGmtModified(user.getGmtCreate());
             user.setAvatarUrl(githubUser.getAvatarUrl());
 
-            userMapper.insert(user);
+            userService.insertOrUpdate(user);
 
             response.addCookie(new Cookie("token", token));
 
