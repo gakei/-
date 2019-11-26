@@ -24,7 +24,7 @@
             <hr>
             <div th:text="${question.description}" style="margin: 15px"></div>
             <hr>
-            <a th:href="@{'/publish'}">
+            <a th:href="@{'/publish/' + ${question.id}}">
                 <span class="glyphicon glyphicon-edit" aria-hidden="true" th:if="${session.user!= null && session.user.id == question.creator}"></span>
                 编辑
             </a>
