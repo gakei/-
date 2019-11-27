@@ -1,5 +1,6 @@
-package WHJ.model;
+package WHJ.dto;
 
+import WHJ.model.User;
 import lombok.Data;
 
 @Data

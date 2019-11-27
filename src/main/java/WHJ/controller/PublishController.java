@@ -1,10 +1,8 @@
 package WHJ.controller;
 
+import WHJ.dto.QuestionDTO;
 import WHJ.mapper.QuestionMapper;
-import WHJ.mapper.UserMapper;
-import WHJ.model.Question;
-import WHJ.model.QuestionDTO;
-import WHJ.model.User;
+import WHJ.model.*;
 import WHJ.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -28,7 +26,10 @@ public class PublishController {
     @GetMapping("/publish/{id}")
     public String edit(@PathVariable("id") Integer id,
                        Model model) {
-        QuestionDTO question = questionMapper.getById(id);
+        QuestionExample questionExample = new QuestionExample();
+        questionExample.createCriteria()
+                .andIdEqualTo(id);
+        Question question = questionMapper.selectByPrimaryKey(id);
         model.addAttribute("title", question.getTitle());
         model.addAttribute("description", question.getDescription());
         model.addAttribute("tag", question.getTag());

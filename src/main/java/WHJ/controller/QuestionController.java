@@ -1,6 +1,6 @@
 package WHJ.controller;
 
-import WHJ.model.QuestionDTO;
+import WHJ.dto.QuestionDTO;
 import WHJ.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

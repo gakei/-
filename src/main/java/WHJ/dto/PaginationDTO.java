@@ -1,6 +1,5 @@
 package WHJ.dto;
 
-import WHJ.model.QuestionDTO;
 import lombok.Data;
 
 import java.util.ArrayList;
