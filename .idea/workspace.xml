@@ -2,133 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8047b014-034b-46bd-b4ee-1eab03196aea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/advice/CustomizeExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/cache/TagCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/controller/CustomizeErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/dto/CommentCreateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/dto/CommentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/dto/ResultDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/dto/TagDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/enums/CommentTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/exception/CustomizeErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/exception/CustomizeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/exception/ICustomizeErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/mapper/CommentExtMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/mapper/QuestionExtMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/model/CommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WHJ/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V10__Change_Question_idAutoInc_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V11__Change_User_idAutoInc_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V12__Change_content_column_in_table_comment.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__Create_comment_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V7__Change_id_column_type.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V8__Change_creator_column_type.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V9__Add_Comment_Count_to_comment_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/test.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/test.trace.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentExtMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/gakii.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/community.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/advice/CustomizeExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/cache/TagCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/controller/CommentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/controller/CustomizeErrorController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/dto/CommentCreateDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/dto/CommentDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/dto/ResultDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/dto/TagDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/enums/CommentTypeEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/exception/CustomizeErrorCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/exception/CustomizeException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/exception/ICustomizeErrorCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/mapper/CommentExtMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/mapper/CommentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/mapper/QuestionExtMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/model/Comment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/model/CommentExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/model/CommentExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/model/CommentExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/model/CommentExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WHJ/service/CommentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V10__Change_Question_idAutoInc_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V11__Change_User_idAutoInc_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V12__Change_content_column_in_table_comment.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V6__Create_comment_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V7__Change_id_column_type.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V8__Change_creator_column_type.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V9__Add_Comment_Count_to_comment_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/test.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/test.trace.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CommentExtMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionExtMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/img/gakii.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/community.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/125b693e-5ca6-4406-9cef-860a5ca6fac4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/125b693e-5ca6-4406-9cef-860a5ca6fac4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/noname.iml" beforeDir="false" afterPath="$PROJECT_DIR$/noname.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/controller/PublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/controller/PublishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/dto/QuestionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/dto/QuestionDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/mapper/QuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/model/QuestionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/model/QuestionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/model/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/model/UserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WHJ/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WHJ/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V5__Delete_avator_url_in_question_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/community.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/publish.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test.trace.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/noname.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/noname.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/controller/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/controller/ProfileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/controller/PublishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/controller/PublishController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/controller/QuestionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/dto/QuestionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/dto/QuestionDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/mapper/QuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/mapper/QuestionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/model/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/model/QuestionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/model/QuestionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/model/QuestionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/model/QuestionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/model/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/model/UserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/model/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/model/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/service/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WHJ/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WHJ/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V5__Delete_avator_url_in_question_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/community.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/publish.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/question.html" afterDir="false" />
     </list>
     <list id="8fba87f7-132a-4934-a83d-2cca7459ee54" name="Revert &quot;完成问题详情页面&quot;" comment="Revert &quot;完成问题详情页面&quot;&#10;&#10;This reverts commit 3fae6b28" />
     <option name="SHOW_DIALOG" value="false" />
@@ -347,6 +221,7 @@
       <workItem from="1578805118745" duration="6570000" />
       <workItem from="1579317404293" duration="42000" />
       <workItem from="1580712794198" duration="679000" />
+      <workItem from="1580729932010" duration="1037000" />
     </task>
     <servers />
   </component>
