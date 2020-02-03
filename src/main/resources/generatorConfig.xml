@@ -10,7 +10,7 @@
         </plugin>
 
         <jdbcConnection driverClass="org.h2.Driver"
-                        connectionURL="jdbc:h2:file:D:/workSpace/My-First-Spring/src/main/test"
+                        connectionURL="jdbc:h2:file:D:/workSpace/My-First-Spring/src/main/resources/db/test"
                         userId="sa"
                         password="123">
         </jdbcConnection>
@@ -36,6 +36,9 @@
         </table>
 
         <table tableName="question" domainObjectName="Question" >
+        </table>
+
+        <table tableName="comment" domainObjectName="Comment" >
         </table>
 
     </context>
