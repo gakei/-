@@ -75,7 +75,9 @@ body{
 }
 
 .publish-tag-tab .label-info {
-    margin-right: 10px;
+    white-space: normal;
+    display: inline-block;
+    margin: 5px 5px;
 }
 
 .publish-tag-tab {
