@@ -92,12 +92,12 @@
                     <div class="media-left">
                         <a href="#">
                             <img class="media-object img-circle"
-                                 th:src="${question.user.avatarUrl}">
+                                 th:src="${session.user != null ? session.user.avatarUrl : '/images/default-avatar.png'}">
                         </a>
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">
-                            <span th:text="${question.user.name}"></span>
+                            <span th:text="${session.user != null ? session.user.name : '匿名用户'}"></span>
                         </h4>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                 <hr>
                 <!--站长本人-->
                 <h3>站长本人</h3>
-                <img src="/images/gakii.jfif" class="img-thumbnail" style="width: 100%">
+                <img src="/images/wechat.jpg" class="img-thumbnail" style="width: 100%">
                 <hr>
                 <!--相关问题-->
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

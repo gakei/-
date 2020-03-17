@@ -1,1 +1,1 @@
-alter table QUESTION alter column ID BIGINT auto_increment;
+alter table question modify id bigint auto_increment;

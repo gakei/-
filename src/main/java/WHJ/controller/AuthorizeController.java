@@ -31,7 +31,7 @@ public class AuthorizeController {
     @Value("${github.client.secret}")
     private String clientSecret;
 
-    @Value("${http://localhost:8080/callback}")
+    @Value("${github.redirect.url}")
     private String redirectUrl;
 
     @Autowired

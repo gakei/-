@@ -2,6 +2,7 @@ package WHJ.service;
 
 
 import WHJ.dto.PaginationDTO;
+import WHJ.dto.QuestionQueryDTO;
 import WHJ.exception.CustomizeErrorCode;
 import WHJ.exception.CustomizeException;
 import WHJ.mapper.QuestionExtMapper;
@@ -18,6 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -32,10 +34,19 @@ public class QuestionService {
     @Autowired
     QuestionExtMapper questionExtMapper;
 
-    public PaginationDTO list(Integer page, Integer size) {
+    public PaginationDTO list(String search, Integer page, Integer size) {
+        if (StringUtils.isNotBlank(search)) {
+            String[] tags = StringUtils.split(search, " ");
+            search = Arrays.stream(tags).collect(Collectors.joining("|"));
+        }
+
+        QuestionQueryDTO questionQueryDTO = new QuestionQueryDTO();
+
+        questionQueryDTO.setSearch(search);
+
+        Integer totalCount = questionExtMapper.countBySearch(questionQueryDTO);
 
         PaginationDTO paginationDTO = new PaginationDTO();
-        Integer totalCount = (int) questionMapper.countByExample(new QuestionExample());
         paginationDTO.setPagination(totalCount, page, size);
 
         if (page < 1) {
@@ -46,14 +57,17 @@ public class QuestionService {
             page = paginationDTO.getTotalPage();
         }
 
-        Integer offset = size * (page - 1);
+        Integer offset = page ==0 ? 0 : size * (page - 1);
 
-        QuestionExample questionExample = new QuestionExample();
-        questionExample.setOrderByClause("gmt_modified desc");
-        List<Question> list = questionMapper.selectByExampleWithRowbounds(questionExample, new RowBounds(offset, size));
+        questionQueryDTO.setSize(size);
+
+        questionQueryDTO.setPage(offset);
+
+        List<Question> questions = questionExtMapper.selectBySearch(questionQueryDTO);
+
         List<QuestionDTO> questionDTOList = new ArrayList<>();
 
-        for (Question question : list) {
+        for (Question question : questions) {
             User user = userMapper.selectByPrimaryKey(question.getCreator());
             QuestionDTO questionDTO = new QuestionDTO();
             BeanUtils.copyProperties(question, questionDTO);
@@ -88,7 +102,7 @@ public class QuestionService {
 
         paginationDTO.setPagination(totalCount, page, size);
 
-        Integer offset = size * (page - 1);
+        Integer offset = page ==0 ? 0 : size * (page - 1);
 
         QuestionExample example = new QuestionExample();
         questionExample.createCriteria()

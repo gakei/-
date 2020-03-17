@@ -1,1 +1,2 @@
-alter table USER alter column ID BIGINT auto_increment;
+alter table user modify id bigint auto_increment;
+
