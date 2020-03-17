@@ -1,8 +1,10 @@
 package WHJ.Interceptors;
 
 import WHJ.mapper.UserMapper;
+import WHJ.model.Notification;
 import WHJ.model.User;
 import WHJ.model.UserExample;
+import WHJ.service.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -18,6 +20,8 @@ public class SessionInterception implements HandlerInterceptor {
 
     @Autowired
     UserMapper userMapper;
+    @Autowired
+    NotificationService notificationService;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler){
@@ -33,6 +37,8 @@ public class SessionInterception implements HandlerInterceptor {
                     List<User> users = userMapper.selectByExample(userExample);
                     if (users.size() != 0) {
                         request.getSession().setAttribute("user", users.get(0));
+                        Long unreadCount = notificationService.unreadCount(users.get(0).getId());
+                        request.getSession().setAttribute("unreadCount", unreadCount);
                     }
                     break;
                 }

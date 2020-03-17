@@ -32,4 +32,9 @@
     <select id="selectRelated" parameterType="WHJ.model.Question" resultMap="BaseResultMap">
         select * from QUESTION where ID != #{id} and tag regexp #{tag}
     </select>
+
+    <select id="selectLatestQuestions" resultMap="BaseResultMap">
+        SELECT * FROM (SELECT * FROM QUESTION order by GMT_CREATE DESC ) where 1=1 limit 5
+    </select>
+
 </mapper>

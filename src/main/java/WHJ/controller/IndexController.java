@@ -1,6 +1,7 @@
 package WHJ.controller;
 
 import WHJ.dto.PaginationDTO;
+import WHJ.dto.QuestionDTO;
 import WHJ.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.List;
 
 @Controller
 public class IndexController {
@@ -24,6 +26,8 @@ public class IndexController {
                         @RequestParam(name = "size", defaultValue = "5") Integer size) {
 
         PaginationDTO pagination = questionService.list(page, size);
+        List<QuestionDTO> latestQuestions = questionService.selectLatestQuestions();
+        pagination.setLatestQuestions(latestQuestions);
         model.addAttribute("pagination", pagination);
         return "index";
     }
