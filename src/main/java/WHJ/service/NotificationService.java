@@ -66,7 +66,7 @@ public class NotificationService {
             page = totalPage;
         }
 
-        paginationDTO.setPagination(totalPage, page, size);
+        paginationDTO.setPagination(totalCount, page, size);
 
         //size*(page-1)
         Integer offset = size * (page - 1);

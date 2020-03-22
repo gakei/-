@@ -39,28 +39,16 @@ public class PaginationDTO<T> {
             }
         }
 
-        if (page == 1) {
-            showPrevious = false;
-        } else {
-            showPrevious = true;
-        }
+        showPrevious = page != 1;
 
-        if (page == totalPage) {
+        if (page.equals(totalPage)) {
             showNext = false;
-        } else {
-            showNext = true;
-        }
+        } else showNext = !totalPage.equals(0);
 
-        if (pages.contains(1)) {
-            showFirstPage = false;
-        } else {
-            showFirstPage = true;
-        }
+        showFirstPage = !page.equals(1);
 
-        if (pages.contains(totalPage)) {
+        if (totalPage.equals(0))
             showEndPage = false;
-        } else {
-            showEndPage = true;
-        }
+        else showEndPage = !page.equals(totalPage);
     }
 }

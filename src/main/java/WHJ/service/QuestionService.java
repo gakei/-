@@ -42,7 +42,16 @@ public class QuestionService {
 
         QuestionQueryDTO questionQueryDTO = new QuestionQueryDTO();
 
-        questionQueryDTO.setSearch(search);
+        try {
+            if(search.equals("")) {
+                search = null;
+            }
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        } finally {
+            questionQueryDTO.setSearch(search);
+        }
+
 
         Integer totalCount = questionExtMapper.countBySearch(questionQueryDTO);
 
@@ -53,7 +62,7 @@ public class QuestionService {
             page = 1;
         }
 
-        if (page > paginationDTO.getTotalPage()) {
+        if (page!=0 && page > paginationDTO.getTotalPage()) {
             page = paginationDTO.getTotalPage();
         }
 
@@ -96,7 +105,7 @@ public class QuestionService {
             page = 1;
         }
 
-        if (page > totalPage) {
+        if (page != 0 && page > totalPage) {
             page = totalPage;
         }
 
@@ -105,7 +114,7 @@ public class QuestionService {
         Integer offset = page ==0 ? 0 : size * (page - 1);
 
         QuestionExample example = new QuestionExample();
-        questionExample.createCriteria()
+        example.createCriteria()
                 .andCreatorEqualTo(userId);
         List<Question> list = questionMapper.selectByExampleWithRowbounds(example, new RowBounds(offset, size));
 

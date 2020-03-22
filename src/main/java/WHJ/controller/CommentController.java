@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class CommentController {
@@ -26,19 +27,20 @@ public class CommentController {
 
     @ResponseBody
     @RequestMapping(value = "/comment", method = RequestMethod.POST)
-    public Object post(@RequestBody CommentCreateDTO commentCreateDTO,
+    public Object post(@RequestBody Map<String, Object> commentDTO,
                        HttpServletRequest request) {
         User user = (User) request.getSession().getAttribute("user");
+
         if (user == null){
             return ResultDTO.errorOf(CustomizeErrorCode.NO_LOGIN);
         }
-        if (commentCreateDTO == null || StringUtils.isBlank(commentCreateDTO.getContent())) {
+        if (commentDTO == null || StringUtils.isBlank((CharSequence) commentDTO.get("content"))) {
             return ResultDTO.errorOf(CustomizeErrorCode.CONTENT_IS_EMPTY);
         }
         Comment comment = new Comment();
-        comment.setParentId(commentCreateDTO.getParentId());
-        comment.setContent(commentCreateDTO.getContent());
-        comment.setType(commentCreateDTO.getType());
+        comment.setParentId(Long.parseLong((String)commentDTO.get("parentId")));
+        comment.setContent((String) commentDTO.get("content"));
+        comment.setType((Integer) commentDTO.get("type"));
         comment.setGmtCreate(System.currentTimeMillis());
         comment.setGmtModified(System.currentTimeMillis());
         comment.setCommentator(user.getId());
