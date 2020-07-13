@@ -3,7 +3,7 @@
 http://47.115.23.189:8080/
 
 ## 项目效果图
- 
+ ![image](https://github.com/gakei/noname/blob/master/example.png?raw=true)
 
 ## 本地运行指南
 1、确保本地安装了JDK8以及Maven等工具
