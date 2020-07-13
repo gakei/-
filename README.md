@@ -22,8 +22,8 @@ http://47.115.23.189:8080/
 开源论坛、问答系统，现有功能提问、回复、通知、最新等功能。
 
 ## 线上部署
-本项目利用了Docker进行线上部署，请确保你的服务器安装了Docker
-1、将`gs-spring-boot-0.1.0.jar`和Dockerfile上传至服务器
-2、使用`docker build . -t my-app`将`gs-spring-boot-0.1.0.jar`打包成Docker image
-3、使用`docker run -it -p 8080:8080 my-app`创建一个新的容器运行命令
+本项目利用了Docker进行线上部署，请确保你的服务器安装了Docker  
+1、将`gs-spring-boot-0.1.0.jar`和Dockerfile上传至服务器  
+2、使用`docker build . -t my-app`将`gs-spring-boot-0.1.0.jar`打包成Docker image  
+3、使用`docker run -it -p 8080:8080 my-app`创建一个新的容器运行命令  
 部署完成
