@@ -18,15 +18,21 @@ public class PaginationDTO<T> {
     private List<Integer> pages = new ArrayList<>();
     private Integer totalPage;
 
-    public void setPagination(Integer totalCount, Integer page, Integer size) {
+    public void setPagination(Integer totalCount, Integer uncheckedPage, Integer size) {
 
         if (totalCount % size == 0) {
-            totalPage = totalCount / size;
+            this.totalPage = totalCount / size;
         } else {
-            totalPage = totalCount / size + 1;
+            this.totalPage = totalCount / size + 1;
         }
 
-        this.page = page;
+        if (uncheckedPage!=0 && uncheckedPage > totalPage) {
+            page = totalPage;
+        }else if (uncheckedPage < 1) {
+            page = 1;
+        } else {
+            page = uncheckedPage;
+        }
 
         pages.add(page);
         for (int i = 1; i <= 3; i++) {
@@ -51,4 +57,5 @@ public class PaginationDTO<T> {
             showEndPage = false;
         else showEndPage = !page.equals(totalPage);
     }
+
 }

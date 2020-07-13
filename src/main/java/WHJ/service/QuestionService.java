@@ -52,19 +52,13 @@ public class QuestionService {
             questionQueryDTO.setSearch(search);
         }
 
-
         Integer totalCount = questionExtMapper.countBySearch(questionQueryDTO);
 
         PaginationDTO paginationDTO = new PaginationDTO();
+
         paginationDTO.setPagination(totalCount, page, size);
 
-        if (page < 1) {
-            page = 1;
-        }
-
-        if (page!=0 && page > paginationDTO.getTotalPage()) {
-            page = paginationDTO.getTotalPage();
-        }
+        page = paginationDTO.getPage();
 
         Integer offset = page ==0 ? 0 : size * (page - 1);
 
