@@ -7,15 +7,15 @@ http://47.115.23.189:8080/
 
 ## 本地运行指南
 1、确保本地安装了JDK8以及Maven等工具
-2、将代码clone到本地
-`git clone httpgit@github.com:gakei/noname.git`
-3、运行打包命令
-`mvn package`
-5、导入数据表
-使用`mvn flyway:migrate`导入数据表
-4、运行项目
-`java -jar target/gs-spring-boot-0.1.0.jar`
-6、访问项目
+2、将代码clone到本地  
+`git clone httpgit@github.com:gakei/noname.git`  
+3、运行打包命令  
+`mvn package`  
+5、导入数据表  
+使用`mvn flyway:migrate`导入数据表  
+4、运行项目  
+`java -jar target/gs-spring-boot-0.1.0.jar`  
+6、访问项目  
 在浏览器访问栏输入`http://localhost:8080`进行访问
 
 ## 功能列表
